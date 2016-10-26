@@ -7,26 +7,28 @@
             <field name="NUM">5000</field>
           </block>
         </value>
-      </block>
-    </next>
-  </block>
-  <block type="movement_forward" id="98" x="138" y="151">
-    <next>
-      <block type="robot_delay" id="379" inline="true">
-        <value name="DELAY">
-          <block type="math_number" id="392">
-            <field name="NUM">5000</field>
-          </block>
-        </value>
         <next>
-          <block type="movement_leftmotor" id="281" inline="true">
-            <value name="MOVLEFT">
-              <block type="math_number" id="288">
-                <field name="NUM">1000</field>
-              </block>
-            </value>
+          <block type="movement_forward" id="98">
             <next>
-              <block type="movement_stop" id="366"></block>
+              <block type="robot_delay" id="379" inline="true">
+                <value name="DELAY">
+                  <block type="math_number" id="392">
+                    <field name="NUM">5000</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="movement_leftmotor" id="281" inline="true">
+                    <value name="MOVLEFT">
+                      <block type="math_number" id="288">
+                        <field name="NUM">1000</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="movement_stop" id="366"></block>
+                    </next>
+                  </block>
+                </next>
+              </block>
             </next>
           </block>
         </next>
