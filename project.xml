@@ -38,14 +38,23 @@
                               </block>
                             </value>
                             <next>
-                              <block type="movement_forward" id="13">
+                              <block type="movement_rightmotor" id="36" inline="true">
+                                <value name="MOVRIGHT">
+                                  <block type="math_number" id="52">
+                                    <field name="NUM">50</field>
+                                  </block>
+                                </value>
                                 <next>
-                                  <block type="robot_delay" id="14" inline="true">
-                                    <value name="DELAY">
-                                      <block type="math_number" id="15">
-                                        <field name="NUM">2000</field>
+                                  <block type="movement_forward" id="13">
+                                    <next>
+                                      <block type="robot_delay" id="14" inline="true">
+                                        <value name="DELAY">
+                                          <block type="math_number" id="15">
+                                            <field name="NUM">2000</field>
+                                          </block>
+                                        </value>
                                       </block>
-                                    </value>
+                                    </next>
                                   </block>
                                 </next>
                               </block>
