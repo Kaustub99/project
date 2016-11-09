@@ -46,6 +46,9 @@
                                         <field name="NUM">2000</field>
                                       </block>
                                     </value>
+                                    <next>
+                                      <block type="movement_stutter" id="62"></block>
+                                    </next>
                                   </block>
                                 </next>
                               </block>
