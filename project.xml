@@ -41,7 +41,7 @@
                               <block type="movement_rightmotor" id="36" inline="true">
                                 <value name="MOVRIGHT">
                                   <block type="math_number" id="52">
-                                    <field name="NUM">50</field>
+                                    <field name="NUM">30</field>
                                   </block>
                                 </value>
                                 <next>
